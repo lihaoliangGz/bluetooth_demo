@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btnSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置蓝牙"
+        />
+
+    <Button
+        android:id="@+id/btnPaired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询配对的设备"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发现设备"
+            />
+
+        <Button
+            android:id="@+id/btnStopSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止发现"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDiscoverable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启用可检测性"
+        />
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="连接设备"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/background_dark"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:text="BLE4.0低功率蓝牙"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/btnLe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否支持BLE"
+        />
+
+    <Button
+        android:id="@+id/btnEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="激活蓝牙"
+        />
+
+    <Button
+        android:id="@+id/btnScanBle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="扫描BLE"
+        />
+
+</LinearLayout>
